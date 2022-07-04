@@ -1,13 +1,15 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class uzduotis {
+public class uzduotis2 {
     public static void main(String[] args) {
         ArrayList<Integer> masyvas = nuskaitytiSkaicius();
         System.out.println("masyvas = " + masyvas);
 
-        ArrayList<Integer> suma = daugiauDesimt();
-        System.out.println("kiek daugiau desimt = " + suma);
+
+
+
+
     }
 
     public static ArrayList<Integer> nuskaitytiSkaicius() {
@@ -23,19 +25,22 @@ public class uzduotis {
 
     }
 
-    public static void daugiauDesimt(ArrayList<Integer> skaiciai) {
-        ArrayList<Integer> dydis = new ArrayList<>();
+    public static int daugiauDesimt(ArrayList<Integer> skaiciai) {
+        int dydis = 0;
 
 
         for (int i = 0; i < skaiciai.size(); i++) {
             if (skaiciai.get(i) > 10) {
-                dydis + == 1;
+                dydis +=1;
             }
-            return dydis ;
+
+
 
 
         }
 
 
+        return dydis;
     }
+
 }
