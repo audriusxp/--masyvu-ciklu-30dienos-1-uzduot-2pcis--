@@ -5,6 +5,8 @@ public class uzduotis2 {
     public static void main(String[] args) {
         ArrayList<Integer> masyvas = nuskaitytiSkaicius();
         System.out.println("masyvas = " + masyvas);
+        int ilgis = daugiauDesimt(masyvas);
+        System.out.println("ilgis = " + ilgis);
 
 
 
